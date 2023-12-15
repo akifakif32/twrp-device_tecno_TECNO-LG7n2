@@ -5,14 +5,14 @@
 #
 
 # Inherit from TECNO-LG7n device
-$(call inherit-product, device/tecno/TECNO-LG7n/device.mk)
+$(call inherit-product, device/tecno/LG7n/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
 PRODUCT_NAME := twrp_LG7n
-PRODUCT_DEVICE := TECNO-LG7n
+PRODUCT_DEVICE := LG7n
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO LG7n
 PRODUCT_MANUFACTURER := TECNO
