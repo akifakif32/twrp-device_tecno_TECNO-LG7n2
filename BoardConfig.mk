@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-LG7n
+DEVICE_PATH := device/tecno/LG7n
 
 # Inherit from mt6789-common
 include device/transsion/mt6789-common/BoardConfigCommon.mk
